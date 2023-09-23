@@ -1,0 +1,33 @@
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    /* z-index: 3; */
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    list-style: none;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #757575;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #438279;
+}
+
+.searchField {
+    border: 1px solid #ec0f0f;
+    border-radius: 3px;
+    padding: 5px;
+    width: 200px;
+    font-size: 1em;
+    font-weight: 300;
+    color: #757575;
+}
