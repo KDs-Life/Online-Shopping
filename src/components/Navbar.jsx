@@ -16,11 +16,12 @@ function Navbar() {
             <a href="">Contact</a>
           </li>
         </ul>
+        <div className="searchField">
+        <input type="text" placeholder="Suchen..." />
+      </div>
       </nav>
       
-      <div className="searchField">
-        <input type="text" placeholder="Suchen" />
-      </div>
+    
     </>
   );
 }
